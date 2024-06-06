@@ -26,12 +26,19 @@ HEADER
 /*
 MAIN
 */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
 .container{
     width: 80%;
     margin: 0 auto;
     
 }
-p{
+
+.intro{
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -42,7 +49,31 @@ p{
 
 section{
     margin-top: 30px;
+    padding-top: 10px;
 }
+img{
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+
 .color{
+    
     color:#FFFFFE ;
+}
+.color2{
+    color:#188AD2 ;
+    
+}
+.columns > *{
+    
+    border:solid 1px #e53170;
+    float: left;
+    width: calc((100% / 3) - 20px);
+    margin-bottom:50px;
+    margin-right: 20px;
+   
+}
+.card-style{
+    padding-top: 20px;
 }
