@@ -58,7 +58,6 @@ img{
 }
 
 .color{
-    
     color:#FFFFFE ;
 }
 .color2{
@@ -66,14 +65,15 @@ img{
     
 }
 .columns > *{
-    
-    border:solid 1px #e53170;
     float: left;
     width: calc((100% / 3) - 20px);
     margin-bottom:50px;
     margin-right: 20px;
    
 }
-.card-style{
+.card-style {
+    text-align: left;
     padding-top: 20px;
+    padding-left: 10px;
+    margin-left: 150px;
 }
